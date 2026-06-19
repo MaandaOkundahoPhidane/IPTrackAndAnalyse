@@ -153,3 +153,64 @@ body,p,table,input,button, .ip-display{
     border-radius: 2px;
     transition: all 0.3s ease;
 }
+@media (max-width: 769px){
+    .navbar {
+        padding: 12px 15px;
+    }
+
+    .nav-container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .brand-wrapper{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .site-title{
+        font-size: 24px;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        padding: 10px 0;
+    }
+
+    .nav-links.open{
+        display: flex;
+    }
+
+    .nav-link-custom{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header-subtitle{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-title {
+        font-size: 18px;
+    }
+
+    .version-badge {
+        font-size: 8px;
+        padding: 2px 8px;
+    }
+
+    .header-subtitle {
+        font-size: 11px;
+    }
+}
